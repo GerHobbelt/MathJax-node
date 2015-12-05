@@ -22,10 +22,10 @@
     "url": "git://github.com/mathjax/MathJax-node.git"
   },
   "dependencies": {
-    "jsdom": "3.1.1",
+    "jsdom": "^6.0.0",
     "speech-rule-engine": "*",
     "yargs": "^3.0.0",
-    "MathJax": "git+https://github.com/physikerwelt/MathJax#funap"
+    "MathJax": "git+https://github.com/physikerwelt/MathJax#mathoid-1.0.0-alpha.0"
   },
   "scripts": {
     "test": "tape test/*.js"
