@@ -28,7 +28,8 @@
     "jsdom": "7.0 - 9.12"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "pub": "npm publish --access public"
   },
   "main": "./lib/main.js",
   "devDependencies": {
