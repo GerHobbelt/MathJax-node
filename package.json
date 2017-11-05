@@ -1,5 +1,5 @@
 {
-  "name": "mathjax-node",
+  "name": "@gerhobbelt/mathjax-node",
   "version": "1.2.1",
   "description": "API's for calling MathJax from node.js",
   "keywords": [
@@ -20,18 +20,18 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mathjax/MathJax-node.git"
+    "url": "git://github.com/GerHobbelt/MathJax-node.git"
   },
   "dependencies": {
-    "is-fullwidth-code-point": "^2.0.0",
-    "jsdom": "7.0 - 9.12",
-    "mathjax": "*"
+    "is-fullwidth-code-point": "2.0.0",
+    "@gerhobbelt/mathjax": "2.7.3-1",
+    "jsdom": "7.0 - 9.12"
   },
   "scripts": {
     "test": "tape test/*.js"
   },
   "main": "./lib/main.js",
   "devDependencies": {
-    "tape": "^4.0.3"
+    "tape": "4.8.0"
   }
 }
