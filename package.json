@@ -23,14 +23,14 @@
     "url": "git://github.com/mathjax/MathJax-node.git"
   },
   "dependencies": {
-    "jsdom": "7.0 - 9.12",
-    "mathjax": "*"
+    "@gerhobbelt/mathjax": "2.7.3-1",
+    "jsdom": "7.0 - 9.12"
   },
   "scripts": {
     "test": "tape test/*.js"
   },
   "main": "./lib/main.js",
   "devDependencies": {
-    "tape": "^4.0.3"
+    "tape": "4.8.0"
   }
 }

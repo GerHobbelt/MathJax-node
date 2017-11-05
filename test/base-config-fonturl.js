@@ -1,6 +1,6 @@
 var tape = require('tape');
 var mjAPI = require("../lib/main.js");
-var mjVersion = require('../package-lock.json').dependencies['mathjax'].version
+var mjVersion = require('../package-lock.json').dependencies['@gerhobbelt/mathjax'].version
 
 tape('basic configuration: check fontURL', function (t) {
     t.plan(2);
