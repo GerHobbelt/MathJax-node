@@ -25,7 +25,7 @@
   "dependencies": {
     "is-fullwidth-code-point": "^2.0.0",
     "jsdom": "^11.0.0",
-    "mathjax": "git+http://github.com/SoftwareMansion/MathJax#production"
+    "mathjax": "git+http://github.com/SoftwareMansion/MathJax#v2.7.5"
   },
   "engines": {
     "node": ">=6.0.0"
